@@ -7,7 +7,6 @@
     <owners>ndrwrbgs</owners>
     <licenseUrl>https://github.com/ndrwrbgs/Batching/blob/master/LICENSE</licenseUrl>
     <projectUrl>https://github.com/ndrwrbgs/Batching</projectUrl>
-    <iconUrl></iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Intercepts requests to allow for APIs to expose single-request semantics but using batching in the underlying implementation (e.g. web requests)</description>
     <releaseNotes>Initial release.</releaseNotes>
