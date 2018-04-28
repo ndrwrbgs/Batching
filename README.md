@@ -33,3 +33,9 @@ private static async Task<IList<string>> GetStringByIndex_Batched(IEnumerable<in
     // TODO: Request each string from the indexes. E.g. http://www.example.com/?ids=1,2,3,4 w/ output like { 1: "hi", 2: "bye", 3: "test" }
 }
 ```
+
+## To Implement Yourself
+1) How to map the result items back to the input items
+  e.g. if each item is JSON and has the input key, or if it's an HttpRequest that has the RequestUri and Body
+2) How to request batches of items
+  e.g. take IEnumerable<int> and make a web request to something like http://www.example.com/?ids=1,2,3,4
