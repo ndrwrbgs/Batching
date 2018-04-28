@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Batch</id>
+    <version>0.1.0</version>
+    <authors>ndrwrbgs</authors>
+    <owners>ndrwrbgs</owners>
+    <licenseUrl>https://github.com/ndrwrbgs/Batching/blob/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/ndrwrbgs/Batching</projectUrl>
+    <iconUrl></iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Intercepts requests to allow for APIs to expose single-request semantics but using batching in the underlying implementation (e.g. web requests)</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Batching Nagle</tags>
+    <dependencies>
+      <dependency id="System.Reactive.Core" version="3.1.1" />
+      <dependency id="System.Reactive.Interfaces" version="3.1.1" />
+      <dependency id="System.Reactive.Linq" version="3.1.1" />
+    </dependencies>
+  </metadata>
+</package>
