@@ -10,10 +10,7 @@
 
     using JetBrains.Annotations;
 
-    /// <summary>
-    ///     Dispose cancels all pending work
-    /// </summary>
-    internal sealed class BatchExecutor<TInput, TOutput> : IAsyncExecutor<TInput, TOutput>, IDisposable
+    internal sealed class BatchExecutor<TInput, TOutput> : IAsyncExecutor<TInput, TOutput>
     {
         private readonly Func<IEnumerable<TInput>, Task<IList<TOutput>>> _batchedItemsMethod;
         private readonly BatchPolicy _batchPolicy;
